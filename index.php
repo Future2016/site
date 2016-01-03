@@ -62,10 +62,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">The most inspirational conference. Ever.</h2>
+                    <h2 id="mainsub" class="section-heading">LEARN TO BUILD APPS AND YOUR FUTURE</h2>
                     <hr class="light">
-                    <p id="homepara">Future2016 was born out of frustration at the lack of technology/STEM events aimed specifically at young people. By introducing a 30 hour hackathon and conference jam-packed with inspirational speakers from the tech and STEM worlds, we aim to inspire the next generation of STEM leaders.</p>
-                    <a href="about" class="btn btn-default btn-xl">Learn more</a>
+                    <p id="homepara">Future2016 was born out of frustration at the lack of large-scale technology/STEM events aimed specifically at young people. By introducing a two day hackathon and conference jam-packed with inspirational speakers from the tech industry, we aim to inspire the next generation of STEM leaders.</p>
+                    <a href="about" id="secbtn" class="btn btn-default btn-xl">Learn more</a>
                 </div>
             </div>
         </div>

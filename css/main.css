@@ -25,6 +25,16 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #D4AF37;
+  font-style: italic;
+
+}
+
+#eventsec {
+  height:55px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
 #google {
@@ -58,6 +68,17 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #C0C0C0;
+  font-style: italic;
+}
+
+#bronze{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #9c6e41;
+  font-style: italic;
 }
 
 

@@ -6,6 +6,12 @@
 
 .intro-header {text-align: center;} 
 
+#abouth {
+    text-align: center;
+    font-family: 'Roboto';
+    color: #46a0cf;
+}
+
 #f16 {color: black;}
 
 .subheading {text-decoration: italic;}
@@ -29,7 +35,7 @@ h4,
 h5,
 h6 {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 500;
 }
 a {
   color: #404040;

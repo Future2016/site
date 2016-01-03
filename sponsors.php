@@ -2,7 +2,7 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/darkhedges.png')">
+    <header class="intro-header" style="background-image: url('img/purple.png')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -37,6 +37,14 @@
                 <a href="http://www.33seconds.co"> <img id="sec33" src="img/33seconds.png"></a>
 
                 <h6 id="silver">silver sponsors</h6>
+            
+        </div>
+
+        <div class="row">
+        
+                 <a href="http://www.eventsec.co.uk"><img id="eventsec" src="img/eventsec.png"></a>
+
+                <h6 id="bronze">bronze sponsors</h6>
             
         </div>
     </div>

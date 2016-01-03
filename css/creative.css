@@ -10,13 +10,39 @@ body {
     height: 100%;
 }
 
+#abouth {
+    text-align: center;
+    font-family: 'Roboto';
+    color: #46a0cf;
+}
+
+#secbtn:hover {
+    background-color: #46a0cf;
+    color: white;
+}
+
+#firsthead {
+    margin-top: -70px;
+}
+
+#mainsub {
+    color: #46a0cf;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+}
+
 .navbar-brand>span {
     font-style: italic;
     font-weight: 300;
 }
 
 #about {
-    background-color: #1ECD6E;
+    background-color: #F6F6F6;
+}
+
+#home_btn_main {
+    font-size: 16px;
 }
 
 #home_btn_main:hover, #home_btn_main:active, #home_btn_main:focus {
@@ -28,11 +54,12 @@ body {
     font-family: 'Roboto';
     font-weight: 300;
     text-align: justify;
+    color: #888888;
 }
 
 #tl {
     font-family: 'Roboto';
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
     font-size: 2em;
     color: white;
@@ -151,6 +178,12 @@ aside {
     background-color: transparent;
 }
 
+@media(max-height:520px) {
+    body {
+        margin-top: 20px;
+    }
+}
+
 @media(min-width:768px) {
     .navbar-default {
         text-align: center;
@@ -161,7 +194,7 @@ aside {
     .navbar-default .navbar-header .navbar-brand {
         color: black;
         font-weight: 100;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 
     .navbar-default .navbar-header .navbar-brand .span{
@@ -237,6 +270,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+    font-style: italic;
 }
 
 header .header-content .header-content-inner hr {
@@ -250,7 +284,7 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
-@media(min-width:768px) {
+
     header {
         min-height: 100%;
     }
@@ -276,7 +310,7 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
-}
+
 
 .section-heading {
     margin-top: 0;
@@ -471,6 +505,7 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+
 }
 
 .btn-xl {
